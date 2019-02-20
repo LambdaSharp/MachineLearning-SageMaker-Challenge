@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Deterministic>true</Deterministic>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <RootNamespace>LambdaSharp.Challenge.TrainingJob.BlazingTextTrainingJobResource</RootNamespace>
+    <AWSProjectType>Lambda</AWSProjectType>
+    <NoWarn>CS1998</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.4.0" />
+    <PackageReference Include="AWSSDK.SageMaker" Version="3.3.19.6" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.31.16" />
+    <PackageReference Include="LambdaSharp" Version="0.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Module.yml">
+      <Link>Module.yml</Link>
+    </Content>
+  </ItemGroup>
+</Project>

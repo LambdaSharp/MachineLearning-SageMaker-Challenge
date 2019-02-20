@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingTextTrainingJobResource", "TrainingJob\BlazingTextTrainingJobResource\BlazingTextTrainingJobResource.csproj", "{95064692-E9B0-4EBC-A280-31BDCF937926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "SentimentAnalysis\Api\Api.csproj", "{82527334-FCCD-4AA3-A36B-7CB2D26CAECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95064692-E9B0-4EBC-A280-31BDCF937926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95064692-E9B0-4EBC-A280-31BDCF937926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95064692-E9B0-4EBC-A280-31BDCF937926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95064692-E9B0-4EBC-A280-31BDCF937926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82527334-FCCD-4AA3-A36B-7CB2D26CAECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82527334-FCCD-4AA3-A36B-7CB2D26CAECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82527334-FCCD-4AA3-A36B-7CB2D26CAECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82527334-FCCD-4AA3-A36B-7CB2D26CAECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

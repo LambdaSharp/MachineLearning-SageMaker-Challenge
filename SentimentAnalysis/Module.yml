@@ -1,0 +1,29 @@
+Module: LambdaSharp.SentimentAnalysis
+
+# The Module Version is shown in the CloudFormation stack and Lambda function descriptions.
+Version: 1.0.0-Dev
+
+# The Module Description is shown in the AWS CloudFormation console with the version number.
+Description: API to query the sentiment analysis sage maker endpoint
+
+# The Items section defines values and resources for the module
+Items:
+  - Import: EndpointName
+    Scope: all
+    Module: LambdaSharp.MachineLearningInfrastructure::EnpointName
+    Description: The name of the SageMaker enpoint that will be invoked by the lambda function
+  
+  - Import: Endpoint
+    Scope: all
+    Module: LambdaSharp.MachineLearningInfrastructure::BlazingTextEndpoint
+    Type: AWS::SageMaker::Endpoint
+    Allow: 
+      - sagemaker:InvokeEndpoint
+
+  - Function: Api
+    Scope: public
+    Description: API to call the sagemaker endpoint
+    Memory: 256
+    Timeout: 30
+    Sources:
+      - Api: POST:/sentiment

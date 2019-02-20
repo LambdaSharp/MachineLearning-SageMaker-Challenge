@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jupyter:
+    image: jupyter/all-spark-notebook:8ccdfc1da8d5
+    ports:
+      - "8765:8888"
+    volumes:
+      - ./:/home/jovyan
+    
