@@ -8,11 +8,6 @@ In this challenge, we are going to be building a sentiment analysis API using Sa
 1. Deploying the infrastructure required to host the model
 1. Create an API to call the SageMaker endpoint
 
-<details><summary>(DynamoDB Table) MessageTable</summary>
-
-  - Stores messages with a unique identifier (_MessageId_) and a source field
-</details>
-
 
 ## Requirements
 You or your team will need the following requirements:
