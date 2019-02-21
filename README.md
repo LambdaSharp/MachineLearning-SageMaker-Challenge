@@ -42,7 +42,7 @@ lash init --tier Sandbox
 
 ### Clone
 ```
-git clone git@github.com:onema/MachineLearning-SageMaker-Challenge.git
+git clone git@github.com:lambdasharp/MachineLearning-SageMaker-Challenge.git
 cd MachineLearning-SageMaker-Challenge/
 ```
 
