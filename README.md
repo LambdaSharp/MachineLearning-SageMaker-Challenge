@@ -58,7 +58,7 @@ This is a LambdaSharp module to create a SageMaker training job. The module will
 </details>
 
 
-<details><summary><a href="https://github.com/lambdasharp/MachineLearning-SageMaker-Challenge/blob/master/amazon-reviews-sentiment-analysis.ipynb">MachineLearningInfrastructure</a></summary>
+<details><summary><a href="https://github.com/LambdaSharp/MachineLearning-SageMaker-Challenge/tree/master/TrainingJob">MachineLearningInfrastructure</a></summary>
 
 Deploy this stack after the Training Job has been published. This stack will 
 
@@ -71,7 +71,7 @@ The endpoint can be used to make inferences about any text.
 
 </details>
 
-<details><summary><a href="https://github.com/lambdasharp/MachineLearning-SageMaker-Challenge/blob/master/amazon-reviews-sentiment-analysis.ipynb">SentimentAnalysis</a></summary>
+<details><summary><a href="https://github.com/LambdaSharp/MachineLearning-SageMaker-Challenge/tree/master/SentimentAnalysis">SentimentAnalysis</a></summary>
 
 This is the stack that will deploy the API using API gateway and lambda.
 
